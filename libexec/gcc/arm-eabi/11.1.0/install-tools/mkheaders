@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/home/Java/GCC/gcc-build/../gcc-arm
+  prefix=/root/gcc-build/../gcc-arm
 fi
 
 # Allow for alternate isysroot in which to find headers
